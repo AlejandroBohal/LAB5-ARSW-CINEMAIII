@@ -1,5 +1,5 @@
 
-# LAB4 - CINEMA-PART II
+# LAB5 - CINEMA-PART II
 ### Descripción
 
 En este repositorio se se encontrará la solución al laboratorio 4

@@ -54,16 +54,27 @@ p,label {
         align-items: stretch;
     }
 }
-.row {
-    display: flex;
-}
 
+.row {
+    margin:0 -15px;
+}
 .column {
     flex: 50%;
+    padding:0 15px;
 }
 hr{
     background-color: #ccc;
 }
 .bg{
     background-color: springgreen;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 20px;
 }
+
+
+
+

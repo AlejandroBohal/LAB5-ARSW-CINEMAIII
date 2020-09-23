@@ -1,8 +1,8 @@
 
-# LAB5 - CINEMA-PART II
+# LAB5 - CINEMA-PART III
 ### Descripción
 
-En este repositorio se harán clientes pesados.
+En este repositorio se hara la implementación de clientes pesados con javascript y la libreria jquery, además se conectará la api rest implementada en los laboratorios pasados y corregida en este.
 
 #### Integrantes
 - Sergio Alejandro Bohórquez Alzate
@@ -19,3 +19,40 @@ en su computador:
 - Git para clonar el repositorio. 
 
 ### Instrucciones de instalación
+
+Desde la terminal ejecutar los siguientes comandos:
+```
+ git clone https://github.com/AlejandroBohal/LAB5-ARSW-CINEMAIII
+ cd LAB5-ARSW-CINEMAIII
+```
+compilar el proyecto con el siguiente comando:
+```
+ mvn package
+```
+Para correr la api y el servidor local embebido:
+
+```
+mvn exec:java -Dexec.mainClass="edu.eci.arsw.cinema.CinemaAPIApplication";
+```
+
+en http://localhost:8080 encontraremos el cliente que ejecutará la api con 
+apiclient o el stub con apimock, si se desea cambiar la implementación cambiar 
+la siguiente linea de código en el path /resources/static/js/app.js:
+
+![](https://media.discordapp.net/attachments/352624122301513730/758256371551961118/unknown.png?width=717&height=329)
+
+### Pruebas
+
+Para correr las pruebas usar el siguiente comando.
+```
+mvn test;
+```
+
+## Resultado final
+
+![](https://media.discordapp.net/attachments/352624122301513730/758257505129201734/unknown.png?width=717&height=260)
+
+
+
+
+

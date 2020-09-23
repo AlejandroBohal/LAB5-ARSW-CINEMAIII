@@ -33,7 +33,7 @@ public class CinemaServices {
     CinemaFilterI cf;
 
     public void addNewCinema(Cinema c){
-        
+        cps.addCinema(c);
     }
 
     public Set<Cinema> getAllCinemas() throws CinemaPersistenceException {

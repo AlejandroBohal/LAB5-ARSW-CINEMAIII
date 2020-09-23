@@ -47,6 +47,14 @@ Para correr las pruebas usar el siguiente comando.
 ```
 mvn test;
 ```
+Aclaración:  
+Las pruebas del modelo se encuentran en edu.eci.arsw.cinema.test.CinemaServicesTest;
+Las pruebas del controlador se encuentran en edu.eci.arsw.cinema.test.ControllerTest;
+
+
+Imágen de pruebas corriendo:
+
+![](https://media.discordapp.net/attachments/352624122301513730/758354991139520532/unknown.png?width=717&height=167)
 
 ## Resultado final
 

@@ -94,4 +94,6 @@ public interface CinemaPersitence {
      * @throws CinemaPersistenceException the cinema persistence exception
      */
     CinemaFunction updateFunctionByCinema(String name, CinemaFunction function) throws  CinemaPersistenceException;
+
+    void addCinema(Cinema c);
 }

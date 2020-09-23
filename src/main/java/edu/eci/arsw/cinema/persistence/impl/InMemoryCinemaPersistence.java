@@ -142,6 +142,12 @@ public class InMemoryCinemaPersistence implements CinemaPersitence{
         }
         return function;
     }
+
+    @Override
+    public void addCinema(Cinema c) {
+        cinemas.put(c.getName(),c);
+    }
+
     private void updateFunction(CinemaFunction cf, CinemaFunction function) {
         cf.setDate(function.getDate());
         cf.setMovie(function.getMovie());
